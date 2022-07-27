@@ -1,0 +1,28 @@
+.container {
+  @apply max-w-screen-2xl mx-auto my-auto px-6 xl:px-0 xl:max-w-screen-lg 2xl:max-w-screen-xl;
+  height: 100vh;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    @apply max-w-screen-2xl;
+  }
+}
+
+@media (min-width: 2050px) {
+  .container {
+    max-width: 2000px;
+  }
+}
+
+@media (min-width: 3300px) {
+  .container {
+    max-width: 2200px;
+  }
+}

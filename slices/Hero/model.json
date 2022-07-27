@@ -1,0 +1,81 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Hero",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "subtitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading4,heading5,heading6,em,hyperlink,heading3,strong,list-item,o-list-item"
+          }
+        },
+        "background_color": {
+          "type": "Color",
+          "config": {
+            "label": "Background Color",
+            "placeholder": ""
+          }
+        },
+        "background_image": {
+          "type": "Link",
+          "config": {
+            "label": "Background Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "button_title": {
+          "type": "Text",
+          "config": {
+            "label": "Button Title",
+            "placeholder": ""
+          }
+        },
+        "button_background": {
+          "type": "Color",
+          "config": {
+            "label": "Button Background",
+            "placeholder": ""
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

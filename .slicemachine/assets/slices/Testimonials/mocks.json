@@ -1,0 +1,104 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "testimonials",
+    "items": [
+      {
+        "avatar": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+        },
+        "title": [
+          {
+            "type": "paragraph",
+            "text": "Velit non incididunt nisi elit voluptate anim sunt minim enim id nostrud consectetur irure velit laboris. Esse fugiat ipsum aliquip. Lorem velit occaecat aliquip duis ullamco veniam dolor irure do in pariatur magna Lorem aliquip.",
+            "spans": []
+          }
+        ],
+        "subtitle": [
+          {
+            "type": "paragraph",
+            "text": "Sunt sint quis pariatur occaecat culpa ad pariatur laborum aliquip.",
+            "spans": []
+          }
+        ],
+        "name": "cultivate viral e-markets"
+      },
+      {
+        "avatar": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+        },
+        "title": [
+          {
+            "type": "paragraph",
+            "text": "Ea magna aliquip amet ex sunt ut nulla magna non occaecat do esse.",
+            "spans": []
+          }
+        ],
+        "subtitle": [
+          {
+            "type": "paragraph",
+            "text": "Sunt anim et ut dolore Lorem adipisicing magna reprehenderit ad quis ipsum eiusmod.",
+            "spans": []
+          }
+        ],
+        "name": "reinvent visionary infomediaries"
+      },
+      {
+        "avatar": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+        },
+        "title": [
+          {
+            "type": "paragraph",
+            "text": "Duis sunt mollit non aute culpa dolore ipsum minim enim qui ad amet excepteur nostrud enim. Nisi non dolor incididunt enim id fugiat Lorem sunt reprehenderit.",
+            "spans": []
+          }
+        ],
+        "subtitle": [
+          {
+            "type": "paragraph",
+            "text": "Anim in deserunt reprehenderit labore magna ea et et tempor eiusmod ad irure nostrud quis. Irure magna quis officia. Cupidatat sint laboris ad ut consequat magna sunt.",
+            "spans": []
+          }
+        ],
+        "name": "implement customized infrastructures"
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Architect enterprise experiences",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Reprehenderit cupidatat ut ut culpa sit irure. Eu consequat aliquip nisi consequat esse labore Lorem aute sunt et incididunt exercitation. Esse aliqua occaecat deserunt ipsum proident exercitation excepteur incididunt in ipsum reprehenderit.",
+          "spans": []
+        }
+      ],
+      "background_color": "#74806d"
+    }
+  }
+]

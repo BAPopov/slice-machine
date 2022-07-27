@@ -1,0 +1,243 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "reversable_section",
+    "items": [
+      {
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Morph seamless web-readiness",
+            "spans": []
+          }
+        ],
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Ad sunt cupidatat irure non non duis ut consectetur consectetur sit. Laborum culpa qui deserunt deserunt in anim. Elit non magna deserunt non veniam ut anim ad.",
+            "spans": []
+          }
+        ],
+        "background_color": "#f24b4d",
+        "button_title": "benchmark bleeding-edge web-readiness",
+        "button_link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "isReversed": true,
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Brand virtual niches",
+            "spans": []
+          }
+        ],
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "In incididunt nostrud labore incididunt do anim veniam aute cillum elit non cupidatat sunt commodo aliquip.",
+            "spans": []
+          }
+        ],
+        "background_color": "#4152d1",
+        "button_title": "orchestrate B2B paradigms",
+        "button_link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "isReversed": true,
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Harness rich paradigms",
+            "spans": []
+          }
+        ],
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Cillum sunt et ad ut. Mollit do amet excepteur elit sint.",
+            "spans": []
+          }
+        ],
+        "background_color": "#62fafa",
+        "button_title": "target bricks-and-clicks vortals",
+        "button_link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "isReversed": false,
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Drive web-enabled relationships",
+            "spans": []
+          }
+        ],
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Mollit est aliqua ut in ut et consectetur incididunt eu ad ad ad Lorem. Enim reprehenderit in ea consectetur in ipsum Lorem.",
+            "spans": []
+          }
+        ],
+        "background_color": "#e56b89",
+        "button_title": "benchmark collaborative infomediaries",
+        "button_link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "isReversed": true,
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+        }
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Cultivate interactive models",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "rowSection",
+    "name": "row section",
+    "slice_type": "reversable_section",
+    "items": [
+      {
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Scale strategic networks",
+            "spans": []
+          }
+        ],
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua amet quis eu consectetur nostrud occaecat laborum do elit proident. Aute nulla ad nulla ex. Elit dolor reprehenderit veniam quis magna aliquip duis reprehenderit deserunt non id ad culpa dolore tempor.",
+            "spans": []
+          }
+        ],
+        "background_color": "#4cc186",
+        "isReversed": false,
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Unleash cross-platform deliverables",
+            "spans": []
+          }
+        ],
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Officia Lorem dolore deserunt pariatur aute est qui minim in Lorem nostrud est est nostrud. Labore irure non reprehenderit occaecat irure veniam tempor quis Lorem dolor excepteur sint. Consectetur ullamco amet ut officia ipsum occaecat.",
+            "spans": []
+          }
+        ],
+        "background_color": "#a53d7d",
+        "isReversed": false,
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Transform mission-critical platforms",
+            "spans": []
+          }
+        ],
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "In non labore anim nulla enim aute aliquip enim est.",
+            "spans": []
+          }
+        ],
+        "background_color": "#4aef0f",
+        "isReversed": false,
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+        }
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Target cross-platform relationships",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

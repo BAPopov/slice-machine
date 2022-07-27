@@ -1,0 +1,7 @@
+.root {
+  @apply relative cursor-pointer inline-flex bg-mkit-blue
+    px-10 py-3 leading-6 transition ease-in-out duration-150
+    shadow-sm text-center justify-center mt-3 border border-transparent items-center text-sm font-semibold rounded-md 
+    tracking-wide;
+  max-height: 64px;
+}

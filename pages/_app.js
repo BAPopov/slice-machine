@@ -1,7 +1,46 @@
-import '../styles/globals.css'
+import { DefaultSeo } from "next-seo";
+import Link from "next/link";
+import { PrismicLink, PrismicProvider } from "@prismicio/react";
+import { PrismicPreview } from "@prismicio/next";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import { linkResolver, repositoryName } from "../prismicio";
+
+import defaultSEOProps from "../next-seo.config";
+import "../styles/globals.css";
+
+const NextLinkShim = ({ href, locale, children, ...props }) => {
+  return (
+    <Link href={href} locale={locale}>
+      <a {...props}>{children}</a>
+    </Link>
+  );
+};
+
+/** @type {import('@prismicio/react').JSXMapSerializer} */
+const richTextComponents = {
+  hyperlink: ({ children, node }) => (
+    <PrismicLink
+      field={node.data}
+      className="underline decoration-1 underline-offset-1"
+    >
+      {children}
+    </PrismicLink>
+  ),
+};
+
+function App({ Component, pageProps }) {
+  return (
+    <PrismicProvider
+      linkResolver={linkResolver}
+      internalLinkComponent={NextLinkShim}
+      richTextComponents={richTextComponents}
+    >
+      <PrismicPreview repositoryName={repositoryName}>
+        <DefaultSeo {...defaultSEOProps} />
+        <Component {...pageProps} />
+      </PrismicPreview>
+    </PrismicProvider>
+  );
 }
 
-export default MyApp
+export default App;

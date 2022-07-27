@@ -1,0 +1,147 @@
+{
+  "id": "reversable_section",
+  "type": "SharedSlice",
+  "name": "ReversableSection",
+  "description": "ReversableSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReversableSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6,strong,em"
+          }
+        },
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_color": {
+          "type": "Color",
+          "config": {
+            "label": "Background Color",
+            "placeholder": ""
+          }
+        },
+        "button_title": {
+          "type": "Text",
+          "config": {
+            "label": "Button Title",
+            "placeholder": ""
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "isReversed": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Reversed",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "rowSection",
+      "name": "row section",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReversableSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6,strong,em"
+          }
+        },
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_color": {
+          "type": "Color",
+          "config": {
+            "label": "Background Color",
+            "placeholder": ""
+          }
+        },
+        "isReversed": {
+          "type": "Boolean",
+          "config": {
+            "label": "Is Reversed",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

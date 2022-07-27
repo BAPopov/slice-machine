@@ -1,0 +1,78 @@
+{
+  "_cts": {
+    "material": {
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "page": {}
+  },
+  "slices": {
+    "Testimonials": {
+      "default": {
+        "items": {
+          "avatar": {
+            "content": "https://images.prismic.io/mkit-example/44fa73cc-6960-4183-bcfd-331c0b0ce2e6_avatar-icon-png-15.png"
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "subtitle": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "name": {
+            "content": "John Doe"
+          }
+        }
+      }
+    },
+    "ReversableSection": {
+      "default": {
+        "primary": {},
+        "items": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "rowSection": {
+        "items": {}
+      }
+    },
+    "Hero": {
+      "default": {
+        "primary": {
+          "subtitle": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Guides": {
+      "default": {
+        "items": {}
+      }
+    }
+  }
+}
